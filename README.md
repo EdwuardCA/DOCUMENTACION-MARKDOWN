@@ -1,11 +1,11 @@
 # Tecnológico de Software
 ## Materia: Fundamentos de álgebra
-## Alumno: Tanjiro Jesús Hernández López
+## Alumno: Luis Edwuard Chay Ascorra
 ## Actividad \#16 - Matrices
 
 ---
 ### Identificación de matrices
-# Mensaje de prueba
+Mensaje de prueba
 
 Matriz identidad, porque la diagonal está compuestos por solo unos y los elementos fuera de la diagonal son ceros.
 
