@@ -178,6 +178,23 @@ $$
 
 <!-- aquí termina mi ejercicio C de E2 -->
 
+D) BA
+
+$$ BA = 
+\begin{pmatrix} 
+5 (2) + 2 (3) & 5 (-1) + 2 (4) \\ 
+-1 (2) + 3 (3) & -1 (-1) + 3 (4) 
+\end{pmatrix}
+\quad
+R=
+\begin{pmatrix}
+16 & 3 \\
+7 & 13
+\end{pmatrix}
+$$
+
+<!-- aquí termina mi ejercicio D de E2 -->
+
 
 
 
