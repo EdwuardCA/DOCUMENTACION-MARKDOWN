@@ -112,6 +112,24 @@ $$
 - **d)** BA  
 - **e)** A^T
 
+**Respuesta:**
+$$
+- a) A+B=
+\begin{pmatrix}
+2+5&-1+2\\
+3-1&4+3
+\end{pmatrix}=
+\quad
+\begin{pmatrix}
+7&1\\
+2&7
+\end{pmatrix}
+$$ 
+<!-- aqui termina mi ejercicio A de E2 -->
+
+
+
+
 
 
 
