@@ -114,7 +114,10 @@ $$
 
 **Respuesta:**
 - **a)** A + B:
+<<<<<<< HEAD
 
+=======
+>>>>>>> fe9e39c87cb9e2c84b29857db137b2948f4121c5
 $$
 A=
 \begin{pmatrix}
