@@ -88,13 +88,29 @@ $$
 - **D:** matriz triangular superior, *por que todos sus elementos debajo de su diagonal principal son 0*
 
 
-
-
-
-
-
 ---
 
+### Ejercicio 2: Operaciones básicas
+### Dadas las matrices:
+$$
+A=
+\begin{pmatrix}
+2&-1\\
+3&4
+\end{pmatrix},
+\quad
+B=
+\begin{pmatrix}
+5&2\\
+-1&3
+\end{pmatrix}
+$$
+### Calcula:
+- **a)** \(A+B\)  
+- **b)** \(2A-B\)  
+- **c)** \(AB\)  
+- **d)** \(BA\)  
+- **e)** \(A^T\)
 
 
 
