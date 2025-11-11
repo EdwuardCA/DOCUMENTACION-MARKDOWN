@@ -81,6 +81,13 @@ D=
 \end{pmatrix}
 $$
 
+**Respuesta:**
+- **A:** matriz de identidad, *por que todos sus elementos en la diagonal son 1 y fuera 0*
+- **B:** matriz diagonal, *por que todos sus elementos fuera de la diagonal principal son 0*
+- **C:** matriz cuadrada, *por que tienen el mismo número de filas que de columnas*
+- **D:** matriz triangular superior, *por que todos sus elementos debajo de su diagonal principal son 0*
+
+
 
 
 
