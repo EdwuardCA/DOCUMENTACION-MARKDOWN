@@ -115,11 +115,13 @@ $$
 **Respuesta:**
 - **a)** A+B=
 $$
+A+B=
 \begin{pmatrix}
 2+5&-1+2\\
 3-1&4+3
-\end{pmatrix}=
+\end{pmatrix}
 \quad
+R=
 \begin{pmatrix}
 7&1\\
 2&7
