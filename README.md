@@ -113,8 +113,8 @@ $$
 - **e)** A^T
 
 **Respuesta:**
+- **a)** A+B=
 $$
-- a) A+B=
 \begin{pmatrix}
 2+5&-1+2\\
 3-1&4+3
