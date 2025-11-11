@@ -54,6 +54,9 @@ $$
 ### Ejercicio 1: Clasificar matrices
 > identificar el tipo de cada matriz según su estructura.
 Se debe observar la posición de los números dentro de la matriz para determinar si es identidad, diagonal, cuadrada o triangular.
+
+## :)
+
 $$
 A=
 \begin{pmatrix}
