@@ -113,19 +113,12 @@ $$
 - **e)** A^T
 
 **Respuesta:**
-- **a)** A + B:
-## ->
-$$
-A+B=
+A)
+
+$$ A + B =
 \begin{pmatrix}
-2+5&-1+2\\
-3-1&4+3
-\end{pmatrix},
-\quad
-=
-\begin{pmatrix}
-7&1\\
-2&7
+2 + 5 & -1 + 2\\
+3 - 1 & 4 + 3 
 \end{pmatrix}
 $$
 
