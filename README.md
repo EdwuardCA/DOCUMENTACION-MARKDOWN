@@ -278,7 +278,7 @@ R=
 \end{pmatrix}
 $$
 
-> *Ahora multiplico (AB) por C
+> *Ahora multiplico (AB) por C*
 
 $$
 AB=
@@ -294,7 +294,63 @@ C=
 \end{pmatrix}
 $$
 
+$$ AB \cdot C= 
+\begin{pmatrix} 
+4 (1) + 6 (0) & 4 (1) + 6 (2) \\ 
+10 (1) + 12 (0) & 10 (1) + 12 (2) 
+\end{pmatrix}
+\quad
+R=
+\begin{pmatrix}
+4 & 16 \\
+10 & 34 
+\end{pmatrix}
+$$
 
+> *A continuación multiplico A por (BC)*
+
+$$
+A=
+\begin{pmatrix}
+1&2\\
+3&4
+\end{pmatrix}\cdot
+\quad
+BC=
+\begin{pmatrix}
+2&2\\
+1&7
+\end{pmatrix}
+$$
+
+$$ A \cdot BC= 
+\begin{pmatrix} 
+1 (2) + 2 (1) & 1 (2) + 2 (7) \\ 
+3 (2) + 4 (1) & 3 (2) + 4 (7) 
+\end{pmatrix}
+\quad
+R=
+\begin{pmatrix}
+4 & 16 \\
+10 & 34 
+\end{pmatrix}
+$$
+
+> *Para finalizar comparamos los resultados para corroborar que son iguales (AB)C = A(BC)*
+
+$$
+(AB)C=
+\begin{pmatrix}
+4&16\\
+10&34
+\end{pmatrix}=
+\quad
+A(BC)=
+\begin{pmatrix}
+4&16\\
+10&34
+\end{pmatrix}
+$$
 
 
 
