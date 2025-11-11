@@ -114,21 +114,17 @@ $$
 
 **Respuesta:**
 - **a)** A + B:
-<<<<<<< HEAD
-
-=======
->>>>>>> fe9e39c87cb9e2c84b29857db137b2948f4121c5
 $$
 A=
 \begin{pmatrix}
-2&-1\\
-3&4
+2+5&-1+2\\
+3-1&4+3
 \end{pmatrix},
 \quad
 B=
 \begin{pmatrix}
-5&2\\
--1&3
+7&1\\
+2&7
 \end{pmatrix}
 $$
 
