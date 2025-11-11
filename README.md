@@ -134,12 +134,12 @@ B) 2A-B
 
 $$ 2A =
 \begin{pmatrix}
-2 (2) & 2 (-1) \\
+2 (2) & 2 (-1)\\
 2 (3) & 2 (4)
 \end{pmatrix}
 =
 \begin{pmatrix}
-4 & -2 \\
+4 & -2\\
 6 & 8
 \end{pmatrix}
 $$
