@@ -137,6 +137,11 @@ $$ 2A =
 2 (2) & 2 (-1) \\ 
 2 (3) & 2 (4) 
 \end{pmatrix}
+R=
+\begin{pmatrix}
+4 & -2 \\
+6 & 8
+\end{pmatrix}
 $$
 
 <!-- aquí termina mi ejercicio B de E2 -->
