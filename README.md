@@ -114,20 +114,21 @@ $$
 
 **Respuesta:**
 - **a)** A + B:
----
+
 $$
-A + B =
+A=
 \begin{pmatrix}
-2 + 5 & -1 + 2 \\
-3 - 1 & 4 + 3
-\end{pmatrix}
-=
+2&-1\\
+3&4
+\end{pmatrix},
+\quad
+B=
 \begin{pmatrix}
-7 & 1 \\
-2 & 7
+5&2\\
+-1&3
 \end{pmatrix}
 $$
----
+
 <!-- aquí termina mi ejercicio A de E2 -->
 
 
