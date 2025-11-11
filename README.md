@@ -114,7 +114,7 @@ $$
 
 **Respuesta:**
 - **a)** A + B:
----
+
 $$
 A + B =
 \begin{pmatrix}
@@ -127,7 +127,7 @@ A + B =
 2 & 7
 \end{pmatrix}
 $$
----
+
 <!-- aquí termina mi ejercicio A de E2 -->
 
 
