@@ -441,3 +441,5 @@ $$
 ### Conclusión breve 
 
 *Clasifiqué matrices (identidad, diagonal, triangular), realicé operaciones básicas (suma, resta, productos, transpuesta) y verifiqué la asociatividad de la multiplicación; todo documentado en Markdown con LaTeX para dejar el proceso claro y presentable.*
+
+...
