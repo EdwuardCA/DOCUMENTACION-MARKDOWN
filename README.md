@@ -233,8 +233,7 @@ $$
 (AB)C=A(BC).
 ### Dadas las matrices:
 
-$$
-A=
+$$ A=
 \begin{pmatrix}
 1&2\\
 3&4
@@ -252,6 +251,7 @@ C=
 0&2
 \end{pmatrix}
 $$
+
 ### Procedimientos:
 ### Verifica que (AB)C = A(BC)
 > *Primero multiplico A por B*
