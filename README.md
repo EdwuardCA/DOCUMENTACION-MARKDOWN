@@ -197,13 +197,12 @@ $$
 
 E) Aᵀ
 
-$$
-A^T =
+$$ A^T =
 \begin{pmatrix}
 2 & -1 \\
 3 & 4
 \end{pmatrix}^T
-=
+R=
 \begin{pmatrix}
 2 & 3 \\
 -1 & 4
