@@ -120,6 +120,12 @@ $$ A + B =
 2 + 5 & -1 + 2\\
 3 - 1 & 4 + 3 
 \end{pmatrix}
+\quad
+R =
+\begin{pmatrix}
+7 & 1\\
+2 & 7
+\end{pmatrix}
 $$
 
 <!-- aquí termina mi ejercicio A de E2 -->
