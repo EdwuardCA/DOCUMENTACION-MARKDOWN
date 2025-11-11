@@ -114,14 +114,15 @@ $$
 
 **Respuesta:**
 - **a)** A + B:
+## ->
 $$
-A=
+A+B=
 \begin{pmatrix}
-25&-12\\
-31&43
+2+5&-1+2\\
+3-1&4+3
 \end{pmatrix},
 \quad
-B=
+=
 \begin{pmatrix}
 7&1\\
 2&7
