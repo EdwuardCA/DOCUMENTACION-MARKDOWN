@@ -2,17 +2,17 @@
 ## Materia: Fundamentos de álgebra
 ## Alumno: Luis Edwuard Chay Ascorra
 ## Actividad \#16 - Matrices
-
+## Fecha: Martes, 11 de Noviembre del 2025
 ---
 ### Identificación de matrices
-Mensaje de prueba
+
 
 Matriz identidad, porque la diagonal está compuestos por solo unos y los elementos fuera de la diagonal son ceros.
 
-$$ A =
+$$ A=
 \begin{pmatrix}
-1 & 0 \\
-0 & 1 \\
+1 & 0\\
+0 & 1\\
 \end{pmatrix}
 $$
 ---
@@ -49,9 +49,11 @@ $$ A + B =
 $$
 
 ---
-# OTRO EJERCICIO
+# EJERCICIOS
 ...
 ### Ejercicio 1: Clasificar matrices
+> identificar el tipo de cada matriz según su estructura.
+Se debe observar la posición de los números dentro de la matriz para determinar si es identidad, diagonal, cuadrada o triangular.
 $$
 A=
 \begin{pmatrix}
@@ -91,6 +93,8 @@ $$
 ---
 
 ### Ejercicio 2: Operaciones básicas
+> El objetivo de este ejercicio es practicar las operaciones fundamentales con matrices.
+Se pide realizar sumas, restas, multiplicaciones y la transpuesta, aplicando correctamente las reglas para cada tipo de operación.
 ### Dadas las matrices:
 $$
 A=
@@ -112,9 +116,9 @@ $$
 - **d)** BA  
 - **e)** A^T
 
-**Respuestas:**
+**Procedimiento:**
 
-A)
+A)  A+B
 
 $$ A + B =
 \begin{pmatrix}
@@ -225,6 +229,8 @@ $$
 ---
 
 ### Ejercicio 3: Multiplicación en cadena
+> Este ejercicio busca verificar la propiedad asociativa de la multiplicación de matrices, demostrando que el orden en que se agrupan las matrices no altera el resultado:
+(AB)C=A(BC).
 ### Dadas las matrices:
 
 $$
@@ -246,7 +252,7 @@ C=
 0&2
 \end{pmatrix}
 $$
-
+### Procedimientos:
 ### Verifica que (AB)C = A(BC)
 > *Primero multiplico A por B*
 
@@ -352,5 +358,83 @@ A(BC)=
 \end{pmatrix}
 $$
 
+---
 
+# Respuestas:
 
+## Ejercicio 1
+
+- **A:** matriz de identidad
+- **B:** matriz diagonal
+- **C:** matriz cuadrada
+- **D:** matriz triangular superior
+
+## Ejercicio 2
+
+**A) A+B**
+
+$$ A+B=
+\begin{pmatrix}
+7 & 1\\
+2 & 7
+\end{pmatrix}
+$$
+
+**B) 2A-B**
+
+$$ 2A-B=
+\begin{pmatrix}
+-1 & -4\\
+7 & 5
+\end{pmatrix}
+$$
+
+**C) AB**
+
+$$ AB=
+\begin{pmatrix}
+11 & 1\\
+11 & 18
+\end{pmatrix}
+$$
+
+**D) BA**
+
+$$ BA=
+\begin{pmatrix}
+16 & 3\\
+7 & 13
+\end{pmatrix}
+$$
+
+**E) Aᵀ**
+
+$$ Aᵀ=
+\begin{pmatrix}
+2 & 3\\
+-1 & 4
+\end{pmatrix}
+$$
+
+## Ejercicio 3
+
+**Comparación Final**
+
+$$
+(AB)C=
+\begin{pmatrix}
+4&16\\
+10&34
+\end{pmatrix}=
+\quad
+A(BC)=
+\begin{pmatrix}
+4&16\\
+10&34
+\end{pmatrix}
+$$
+
+---
+### Conclusión breve 
+
+*Clasifiqué matrices (identidad, diagonal, triangular), realicé operaciones básicas (suma, resta, productos, transpuesta) y verifiqué la asociatividad de la multiplicación; todo documentado en Markdown con LaTeX para dejar el proceso claro y presentable.*
