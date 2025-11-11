@@ -113,6 +113,7 @@ $$
 - **e)** A^T
 
 **Respuestas:**
+
 A)
 
 $$ A + B =
@@ -159,6 +160,23 @@ R =
 $$
 
 <!-- aquí termina mi ejercicio B de E2 -->
+
+C) AB
+
+$$ AB = 
+\begin{pmatrix} 
+2 (5) + (-1) (-1) & 2 (2) + (-1) (-3) \\ 
+3 (5) + 4 (1) & 3 (2) + 4 (3) 
+\end{pmatrix}
+\quad
+R=
+\begin{pmatrix}
+11 & 1 \\
+11 & 18
+\end{pmatrix}
+$$
+
+<!-- aquí termina mi ejercicio C de E2 -->
 
 
 
