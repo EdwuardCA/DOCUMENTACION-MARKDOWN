@@ -134,8 +134,8 @@ B) 2A-B
 
 $$ 2A =
 \begin{pmatrix}
-2(2) & 2(-1) \\
-2(3) & 2(4)
+2 (2) & 2 (-1) \\
+2 (3) & 2 (4)
 \end{pmatrix}
 =
 \begin{pmatrix}
@@ -144,7 +144,7 @@ $$ 2A =
 \end{pmatrix}
 $$
 
-<!-- aquí termina mi ejercicio A de E2 -->
+<!-- aquí termina mi ejercicio B de E2 -->
 
 
 
