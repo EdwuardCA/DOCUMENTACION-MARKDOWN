@@ -129,7 +129,7 @@ R =
 \end{pmatrix}
 $$
 
-*En este ejercicio sumé las dos matrices elemento por elemento, me aseguré de que tuvieran el mismo tamaño (2x2) y verifiqué los signos al sumar los valores negativos. El resultado fue una matriz con los valores correctos en cada posición.*
+> *En este ejercicio sumé las dos matrices elemento por elemento, me aseguré de que tuvieran el mismo tamaño (2x2) y verifiqué los signos al sumar los valores negativos. El resultado fue una matriz con los valores correctos en cada posición.*
 
 <!-- aquí termina mi ejercicio A de E2 -->
 
@@ -161,7 +161,7 @@ R =
 \end{pmatrix}
 $$
 
-*Primero multipliqué la matriz A por el escalar 2, luego realicé la resta con la matriz B, tuve cuidado con los signos negativos para no cometer errores en las operaciones. El resultado final fue una matriz 2x2 que muestra correctamente la resta entre ambas.*
+> *Primero multipliqué la matriz A por el escalar 2, luego realicé la resta con la matriz B, tuve cuidado con los signos negativos para no cometer errores en las operaciones. El resultado final fue una matriz 2x2 que muestra correctamente la resta entre ambas.*
 
 <!-- aquí termina mi ejercicio B de E2 -->
 
@@ -180,7 +180,7 @@ R=
 \end{pmatrix}
 $$
 
-*Aquí apliqué la multiplicación de matrices usando el método de filas por columnas, verifiqué que las dimensiones fueran compatibles y realicé cada producto con su respectiva suma. El resultado muestra cómo la multiplicación de matrices no se hace elemento a elemento, sino combinando filas y columnas.*
+> *Aquí apliqué la multiplicación de matrices usando el método de filas por columnas, verifiqué que las dimensiones fueran compatibles y realicé cada producto con su respectiva suma. El resultado muestra cómo la multiplicación de matrices no se hace elemento a elemento, sino combinando filas y columnas.*
 
 <!-- aquí termina mi ejercicio C de E2 -->
 
@@ -199,7 +199,7 @@ R=
 \end{pmatrix}
 $$
 
-*Repetí la multiplicación, pero esta vez en el orden inverso (B por A), me di cuenta de que el resultado cambió por completo, lo que demuestra que la multiplicación de matrices no es conmutativa. También comprobé cada operación para confirmar que el resultado fuera correcto.*
+> *Repetí la multiplicación, pero esta vez en el orden inverso (B por A), me di cuenta de que el resultado cambió por completo, lo que demuestra que la multiplicación de matrices no es conmutativa. También comprobé cada operación para confirmar que el resultado fuera correcto.*
 
 <!-- aquí termina mi ejercicio D de E2 -->
 
@@ -217,7 +217,7 @@ R=
 \end{pmatrix}
 $$
 
-*En este ejercicio calculé la transpuesta de la matriz A. Simplemente intercambié sus filas por columnas, manteniendo los valores en el mismo orden. El resultado confirma que la transpuesta cambia la orientación de la matriz, pero no sus valores.*
+> *En este ejercicio calculé la transpuesta de la matriz A. Simplemente intercambié sus filas por columnas, manteniendo los valores en el mismo orden. El resultado confirma que la transpuesta cambia la orientación de la matriz, pero no sus valores.*
 
 <!-- aquí termina mi ejercicio E de E2 -->
 
