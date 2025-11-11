@@ -137,10 +137,24 @@ $$ 2A =
 2 (2) & 2 (-1) \\ 
 2 (3) & 2 (4) 
 \end{pmatrix}
+\quad
 R=
 \begin{pmatrix}
 4 & -2 \\
 6 & 8
+\end{pmatrix}
+$$
+
+$$ 2A - B =
+\begin{pmatrix}
+4 - 5 & -2 - 2\\
+6 + 1 & 8 - 3 
+\end{pmatrix}
+\quad
+R =
+\begin{pmatrix}
+-1 & -4\\
+7 & 5
 \end{pmatrix}
 $$
 
