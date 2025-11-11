@@ -195,6 +195,23 @@ $$
 
 <!-- aquí termina mi ejercicio D de E2 -->
 
+E) Aᵀ
+
+$$
+A^T =
+\begin{pmatrix}
+2 & -1 \\
+3 & 4
+\end{pmatrix}^T
+=
+\begin{pmatrix}
+2 & 3 \\
+-1 & 4
+\end{pmatrix}
+$$
+
+<!-- aquí termina mi ejercicio E de E2 -->
+
 
 
 
