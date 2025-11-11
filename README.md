@@ -114,7 +114,6 @@ $$
 
 **Respuesta:**
 - **a)** A + B:
-
 $$
 A + B =
 \begin{pmatrix}
