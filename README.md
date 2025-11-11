@@ -117,8 +117,8 @@ $$
 $$
 A=
 \begin{pmatrix}
-2+5&-1+2\\
-3-1&4+3
+25&-12\\
+31&43
 \end{pmatrix},
 \quad
 B=
