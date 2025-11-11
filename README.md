@@ -113,21 +113,22 @@ $$
 - **e)** A^T
 
 **Respuesta:**
-- **a)** A+B=
+- **a)** A + B:
+---
 $$
-A+B=
+A + B =
 \begin{pmatrix}
-2+5 & -1+2\\
-3-1 & 4+3
+2 + 5 & -1 + 2 \\
+3 - 1 & 4 + 3
 \end{pmatrix}
 =
 \begin{pmatrix}
-7 & 1\\
+7 & 1 \\
 2 & 7
 \end{pmatrix}
-$$ 
-<!-- aqui termina mi ejercicio A de E2 -->
-
+$$
+---
+<!-- aquí termina mi ejercicio A de E2 -->
 
 
 
