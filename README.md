@@ -138,7 +138,7 @@ $$
 
 **Procedimiento:**
 
-A)  A+B
+**A)  A+B**
 
 $$ A + B =
 \begin{pmatrix}
@@ -166,7 +166,7 @@ Nota: Revisar signos negativos para evitar errores.
 <!-- aquí termina mi ejercicio A de E2 -->
 ---
 
-B) 2A-B
+**B) 2A-B**
 
 $$ 2A = 
 \begin{pmatrix} 
@@ -207,7 +207,7 @@ Nota: La multiplicación por escalar siempre se hace antes de la resta.
 <!-- aquí termina mi ejercicio B de E2 -->
 ---
 
-C) AB
+**C) AB**
 
 $$ AB = 
 \begin{pmatrix} 
@@ -237,7 +237,7 @@ Nota: La multiplicación de matrices NO es elemento a elemento.
 <!-- aquí termina mi ejercicio C de E2 -->
 ---
 
-D) BA
+**D) BA**
 
 $$ BA = 
 \begin{pmatrix} 
@@ -265,7 +265,7 @@ Nota: Esto demuestra que la multiplicación de matrices no es conmutativa.
 <!-- aquí termina mi ejercicio D de E2 -->
 ---
 
-E) Aᵀ
+**E) Aᵀ**
 
 $$ A^T =
 \begin{pmatrix}
