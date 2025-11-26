@@ -260,7 +260,7 @@ Dado que nuestras imágenes están representadas como matrices cuadradas de 36×
 
 En Excel, esta operación fue aplicada sumando los valores numéricos que representan el color de cada pixel.
 
-#### En este caso utilize dos distintas imagenes pixel art en escala de grises para poder visualizar mejor la operación dentro de Excel
+#### En este caso utilicé dos distintas imagenes pixel art en escala de grises para poder visualizar mejor la operación dentro de Excel
 
 Matrizes utilizadas:
 
@@ -301,3 +301,52 @@ El resultado de la suma matricial representa una combinación directa de los val
 
 --- 
 
+## Operación 2: Resta de Matrices (Imagen A − Imagen B)
+
+La resta de matrices consiste en restar elemento por elemento dos matrices del mismo tamaño.
+Dado que nuestras imágenes están codificadas como matrices de 36×36, la operación se aplica celda por celda:
+
+```excel
+(A − B)ᵢⱼ = Aᵢⱼ − Bᵢⱼ
+```
+
+En Excel, cada celda del resultado muestra la diferencia numérica entre los valores de color correspondientes en las matrices A y B.
+
+#### En esta ocación se utilizan las mismas imagenes que en la operación de suma para poder hacer mas practico el ejercicio.
+
+Captura de la Hoja de Resta en Excel
+
+<img width="720" height="779" alt="image" src="https://github.com/user-attachments/assets/ec3dfe18-2fdd-4baf-bd7f-52a66a7958a9" />
+
+### Método Utilizado en Excel:
+
+Para restar las matrices, se usaron las mismas hojas:
+
+- Fantasma → Imagen A
+- Pezz → Imagen B
+
+La fórmula aplicada fue:
+
+```excel
+=Fantasma!B1 - Pezz!B1
+```
+
+Luego, la fórmula se extendió:
+
+> hacia la derecha → hasta cubrir las 36 columnas
+> hacia abajo → hasta cubrir las 36 filas
+
+Formando así toda la matriz resultante.
+
+#### Notas importantes
+
+- Ambas matrices deben tener el mismo tamaño (36×36).
+- Si el valor de B es mayor que A en alguna celda, el resultado será un número negativo.
+- Los valores negativos representan diferencias inversas de intensidad. 
+- Esta operación no mezcla colores, sino que marca diferencias punto por punto.
+
+#### Interpretación del resultado
+
+El resultado de la resta matricial permite identificar de forma precisa las diferencias entre las dos imágenes pixeladas. Un valor de 0 indica que ambos pixeles eran idénticos; un valor positivo significa que la Imagen A tenía una mayor intensidad en esa posición; mientras que un valor negativo refleja que la Imagen B poseía un valor superior. Cuando las imágenes difieren en forma o distribución, la operación genera patrones que resaltan contrastes y variaciones visuales. Esta técnica es particularmente útil para detectar cambios estructurales entre matrices y analizar cómo se comportan dos representaciones pixeladas al compararse punto por punto.
+
+--- 
