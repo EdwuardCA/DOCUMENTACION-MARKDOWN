@@ -4,6 +4,17 @@
 ## Alumno: *Luis Edwuard Chay Ascorra*  
 ## Actividad #20
 ---
+
+## Índice
+1. Objetivo general  
+2. Matrices originales (36×36)  
+3. Matrices traspuestas  
+4. Suma de matrices  
+5. Resta de matrices  
+6. Multiplicación escalar  
+7. Composición de matrices  
+8. Conclusiones generales
+
 ## Objetivo general 
 
 El objetivo de esta actividad fue reforzar las operaciones matriciales fundamentales mediante su aplicación en Excel, representando imágenes como matrices y realizando con ellas transposición, suma, resta, multiplicación escalar y composición. Además, se busca practicar el uso de fórmulas, formato condicional y funciones matriciales en Excel, junto con la correcta documentación del proceso en Markdown dentro de un branch en GitHub, aplicando buenas prácticas de control de versiones y redacción técnica.
@@ -312,7 +323,7 @@ Dado que nuestras imágenes están codificadas como matrices de 36×36, la opera
 
 En Excel, cada celda del resultado muestra la diferencia numérica entre los valores de color correspondientes en las matrices A y B.
 
-#### En esta ocación se utilizan las mismas imagenes que en la operación de suma para poder hacer mas practico el ejercicio.
+#### En esta ocasión se utilizan las mismas imagenes que en la operación de suma para poder hacer mas practico el ejercicio.
 
 Captura de la Hoja de Resta en Excel
 
@@ -404,3 +415,65 @@ La multiplicación escalar actúa como un ajuste matemático que amplifica o ate
 
 ---
 
+## Operación 4: Composición de Matrices (Selección Condicional entre A y B)
+
+La composición matricial en esta actividad se realizó mediante un método de selección condicional, en lugar de una combinación ponderada. Este enfoque permite superponer una imagen sobre otra determinando, pixel por pixel, cuál valor debe conservarse en la matriz final.
+
+#### En esta composición:
+
+- La matriz Pezz se coloca encima y tiene prioridad donde sus valores sean diferentes de cero.
+- Los valores iguales a 0 son interpretados como “vacíos”, permitiendo que se conserve el valor correspondiente de la imagen base.
+
+
+La matriz Fantasma funciona como la imagen base pero se utilizan las dos: 
+
+<img width="318" height="385" alt="image" src="https://github.com/user-attachments/assets/ee6b8293-737d-4a56-a398-293a60ab2b50" /><img width="317" height="382" alt="image" src="https://github.com/user-attachments/assets/d189a66f-2d53-491a-b6a8-b37cbcea66d9" />
+
+### Captura de la Hoja de Composición en Excel: 
+
+<img width="715" height="778" alt="image" src="https://github.com/user-attachments/assets/5220a2fd-5ac5-482c-a653-53c806e453d2" />
+
+#### Método Utilizado en Excel: 
+
+La fórmula aplicada para generar la imagen compuesta fue:
+
+```excel
+=SI(Pezz!A1=0, Fantasma!A1, Pezz!A1)
+```
+
+Esta fórmula determina qué pixel conservar en cada posición:
+
+- Si Pezz!A1 = 0, significa que la imagen Pezz no aporta dato en esa celda, por lo que se utiliza el valor de Fantasma!A1.
+- Si Pezz!A1 es distinto de 0, entonces ese valor tiene prioridad y reemplaza al de la imagen base.
+
+La fórmula se extendió:
+
+> hacia la derecha → 36 columnas, 
+> hacia abajo → 36 filas
+
+hasta completar toda la matriz de composición.
+
+Notas importantes
+
+- Ambas matrices deben ser del mismo tamaño (36×36).
+- Esta operación no realiza suma, resta ni multiplicación, solo una selección condicional.
+- La imagen Pezz domina únicamente en las posiciones donde su valor no es cero.
+- La imagen Fantasma permanece visible en los pixeles donde Pezz tiene ceros.
+- Este procedimiento simula una composición tipo “capa superior con transparencia”.
+
+#### Interpretación del resultado: 
+
+El resultado final muestra una imagen compuesta donde los valores de ambas matrices interactúan mediante reglas de prioridad:
+
+- Pixeles no nulos de Pezz → sustituyen a los de Fantasma.
+- Pixeles nulos (0) de Pezz → permiten ver el contenido original de Fantasma.
+
+Esto genera un efecto visual similar a aplicar transparencia en diseño gráfico, donde una imagen se coloca por encima de otra sin mezclar colores matemáticamente, sino seleccionando el valor más adecuado en cada posición.
+
+---
+
+# Conclusiones Generales
+
+La actividad permitió comprender y aplicar de manera integral las operaciones matriciales fundamentales mediante el uso de Excel como herramienta de análisis y visualización. Representar imágenes pixeladas como matrices numéricas facilitó observar, de forma clara y directa, cómo cada operación transforma la estructura y los valores de una imagen digital. La transposición mostró el efecto de intercambiar filas por columnas sobre la orientación de las figuras; las operaciones de suma y resta permitieron estudiar la interacción entre dos matrices, ya sea combinando sus valores o destacando diferencias puntuales; la multiplicación escalar evidenció cómo una modificación numérica uniforme altera la intensidad de toda la matriz sin cambiar su forma; y la composición condicional demostró la posibilidad de superponer imágenes mediante reglas lógicas que simulan comportamientos de capas y transparencia.
+
+En conjunto, la práctica reforzó no solo la comprensión de las operaciones matriciales en el ámbito del álgebra, sino también el dominio del uso de funciones, referencias y formato condicional dentro de Excel, integrando conceptos matemáticos con herramientas digitales aplicables a contextos reales.
