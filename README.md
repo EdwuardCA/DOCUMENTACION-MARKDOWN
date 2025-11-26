@@ -249,3 +249,55 @@ Fórmula usada:
 ```excel
 =TRANSPONER(Foxy!A1:AK36)
 ```
+---
+
+## Operación 1: Suma de Matrices (Imagen A + Imagen B)
+
+La suma de matrices consiste en sumar elemento por elemento dos matrices del mismo tamaño.
+Dado que nuestras imágenes están representadas como matrices cuadradas de 36×36, la operación se realiza celda por celda:
+
+> (A + B)𝑖,𝑗 = A𝑖,𝑗 + B𝑖,𝑗
+
+En Excel, esta operación fue aplicada sumando los valores numéricos que representan el color de cada pixel.
+
+#### En este caso utilize dos distintas imagenes pixel art en escala de grises para poder visualizar mejor la operación dentro de Excel
+
+Matrizes utilizadas:
+
+<img width="318" height="385" alt="image" src="https://github.com/user-attachments/assets/ee6b8293-737d-4a56-a398-293a60ab2b50" /><img width="317" height="382" alt="image" src="https://github.com/user-attachments/assets/d189a66f-2d53-491a-b6a8-b37cbcea66d9" />
+
+### Captura de la Hoja de Suma en Excel:
+
+<img width="713" height="786" alt="Captura de pantalla 2025-11-25 181822" src="https://github.com/user-attachments/assets/bbe1b2de-b32b-4e11-8b73-464b1a46e896" />
+
+### Método Utilizado en Excel
+
+Para la suma de matrices, se utilizaron dos hojas:
+
+- Fantasma → Imagen A
+- Pezz → Imagen B
+
+La fórmula aplicada fue:
+```excel
+=Fantasma!B1 + Pezz!B1
+```
+
+Esta fórmula se arrastró hacia:
+
+> la derecha (hasta 36 columnas)
+> hacia abajo (hasta 36 filas)
+
+para formar la matriz completa resultante.
+
+- Notas importantes:
+
+Ambas matrices deben tener exactamente 36×36 valores.
+La suma se hace celda por celda, por lo que no es una suma matricial compleja sino aritmética.
+El resultado mantiene la estructura del pixel art, pero con colores “mezclados” al aumentar los valores.
+
+### Interpretación del resultado
+
+El resultado de la suma matricial representa una combinación directa de los valores numéricos utilizados para codificar los colores de ambas imágenes. Cuando un pixel tiene valores altos en las dos matrices, la suma produce un valor mayor, generando un color más “intenso” dentro del esquema numérico definido. En aquellos casos donde las figuras no coinciden en posición o forma, la operación genera nuevos patrones y tonalidades, ya que los valores de cada pixel se combinan independientemente de la imagen original. Esto permite observar cómo dos representaciones pixeladas se mezclan matemáticamente para formar una tercera imagen.
+
+--- 
+
