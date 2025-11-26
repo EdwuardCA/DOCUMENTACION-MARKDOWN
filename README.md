@@ -151,5 +151,101 @@ El procedimiento fue el mismo que en Imagen 1 , 2 , 3 y 4
 | 0⬜ | 14🟨 | 13🟧 | 13🟧 | 13🟧 |
 | 11🟥 | 11🟥 | 0⬜ | 14🟨 | 11🟥 |
 
+---
+
+## Documentación de Matrices Traspuestas (Imágenes 36×36)
+
+Tras construir las cinco matrices originales (36×36), se generó para cada una su matriz traspuesta.
+La traspuesta de una matriz A consiste en intercambiar filas por columnas, es decir:
+
+> El elemento en fila i, columna j pasa a la posición fila j, columna i.
+
+Esto permite aplicar operaciones matriciales correctamente y visualizar cómo cambia la distribución del pixel art al reorganizar la matriz.
+
+---
+
+### 1. Traspuesta de la Imagen 1
+
+Captura de la Hoja en Excel:
+
+<img width="725" height="806" alt="image" src="https://github.com/user-attachments/assets/85887028-ea8c-44e9-a1c1-cfcbe18760f1" />
+
+#### Método Utilizado:
+
+En Excel, se utilizó la función:
+
+```excel
+=TRANSPONER(Lucario!A1:AK36)
+```
+### Importante:
+
+Antes de escribir la fórmula, es necesario seleccionar un rango del mismo tamaño que la matriz original.
+Como la matriz original es de 36 filas × 36 columnas, su traspuesta también será de 36×36.
+En Excel moderno no necesitas presionar CTRL + SHIFT + ENTER, la fórmula matricial se confirma automáticamente.
+
+--- 
+
+### 2. Traspuesta de la Imagen 2
+
+Captura de la Hoja en Excel:
+
+<img width="707" height="687" alt="image" src="https://github.com/user-attachments/assets/ca096082-e0f2-4639-92ed-5c3b4a5295f6" />
+
+#### Método Utilizado:
+
+Se aplicó la misma fórmula adaptada al rango de la imagen 2:
+
+```excel
+=TRANSPONER(Charizar!A1:AK36)
+```
+
+---
+
+### 3. Traspuesta de la Imagen 3
+
+Captura de la Hoja en Excel:
+
+<img width="603" height="690" alt="image" src="https://github.com/user-attachments/assets/9c112c8b-6df7-423c-b13d-335e94ec2015" />
+
+#### Método Utilizado:
+
+Fórmula usada:
 
 
+```excel
+=TRANSPONER(HollowKnight!A1:AK36)
+```
+
+---
+
+### 4. Traspuesta de la Imagen 4
+
+Captura de la Hoja en Excel:
+
+<img width="857" height="803" alt="image" src="https://github.com/user-attachments/assets/e60ab6c0-a15a-415f-ad50-d1bc2fd30d06" />
+
+#### Método Utilizado:
+
+Fórmula usada:
+
+
+```excel
+=TRANSPONER(Snoopy!A1:AK36)
+```
+
+---
+
+### 5. Traspuesta de la Imagen 5
+
+Captura de la Hoja en Excel:
+
+<img width="715" height="655" alt="image" src="https://github.com/user-attachments/assets/0756002c-7feb-46dc-b632-8c4b376e992f" />
+
+#### Método Utilizado:
+
+Fórmula usada:
+
+
+```excel
+=TRANSPONER(Foxy!A1:AK36)
+```
