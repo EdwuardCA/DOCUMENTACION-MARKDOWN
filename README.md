@@ -350,3 +350,57 @@ Formando así toda la matriz resultante.
 El resultado de la resta matricial permite identificar de forma precisa las diferencias entre las dos imágenes pixeladas. Un valor de 0 indica que ambos pixeles eran idénticos; un valor positivo significa que la Imagen A tenía una mayor intensidad en esa posición; mientras que un valor negativo refleja que la Imagen B poseía un valor superior. Cuando las imágenes difieren en forma o distribución, la operación genera patrones que resaltan contrastes y variaciones visuales. Esta técnica es particularmente útil para detectar cambios estructurales entre matrices y analizar cómo se comportan dos representaciones pixeladas al compararse punto por punto.
 
 --- 
+
+## Operación 3: Multiplicación Escalar de una Matriz (c × Imagen A)
+
+La multiplicación escalar consiste en multiplicar cada elemento de una matriz por un número constante llamado escalar. En el contexto de nuestras imágenes representadas como matrices de 36×36, esta operación modifica la intensidad numérica de los colores sin alterar la forma ni la distribución del pixel art.
+
+Matemáticamente se define como:
+
+```excel
+(cA)ij​=c⋅Aij
+```
+En esta ocasión utilicé la primera matriz:
+
+<img width="715" height="735" alt="image" src="https://github.com/user-attachments/assets/6e8509d2-0c71-40f2-847f-1d20f83ddd83" />
+
+### Captura de la Hoja de Multiplicación Escalar en Excel:
+
+<img width="721" height="785" alt="image" src="https://github.com/user-attachments/assets/9705262b-ae6b-466d-bf05-0d52119fbea1" />
+
+#### Método Utilizado en Excel: 
+
+Para esta operación se seleccionó la matriz correspondiente a la imagen Lucario y se aplicó un escalar igual a 3.
+
+La fórmula utilizada fue:
+
+```excel
+=3 * Lucario!AJ36
+```
+
+Donde:
+
+- 3 → representa el escalar aplicado a toda la matriz.
+- Lucario!AJ36 → es la referencia a la celda de la matriz original que se está multiplicando.
+
+Posteriormente, la fórmula se arrastró:
+
+> hacia la derecha → hasta cubrir las 36 columnas, 
+> hacia abajo → hasta cubrir las 36 filas
+
+De esta forma, cada celda de la matriz resultante quedó multiplicada por el escalar.
+
+Notas importantes
+
+- La matriz resultante conserva el tamaño original (36×36).
+- El escalar modifica únicamente la intensidad numérica de cada pixel.
+- Si el escalar es mayor que 1, los valores aumentan proporcionalmente.
+- Escalares entre 0 y 1 disminuirían los valores.
+- Escalares negativos invierten el signo, aunque no se usa para pixel art.
+
+#### Interpretación del resultado
+
+La multiplicación escalar actúa como un ajuste matemático que amplifica o atenúa los valores representados en la matriz, la estructura visual del pixel art permanece intacta, pero sus valores numéricos cambian de forma proporcional al escalar aplicado. En términos prácticos, esto puede interpretarse como una “intensificación” de la imagen si los colores se visualizaran mediante formato condicional.
+
+---
+
