@@ -1,4 +1,4 @@
-# 📘 Actividad 4 – Resolución de Sistemas de Ecuaciones  
+# 📘 Actividad 22 – Resolución de Sistemas de Ecuaciones  
 **Materia:** Fundamentos de Álgebra – Tecnológico de Software  
 **Alumno:** Luis Edwuard Chay Ascorra – Grupo 1A – 2025  
 
